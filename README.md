@@ -10,3 +10,5 @@ Repositório para armazenar conteúdo do curso Santander Coders
 ## Utilizando o comando git push
 
 ## Utilizando o comando git pull
+
+## utilizando o comando git fetch
