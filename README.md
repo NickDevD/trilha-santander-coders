@@ -7,4 +7,6 @@ Repositório para armazenar conteúdo do curso Santander Coders
 
 ## Utilizando os comandos git log e git restore
 
-## utilizando o comando git push
+## Utilizando o comando git push
+
+## Utilizando o comando git pull
