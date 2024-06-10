@@ -1,14 +1,49 @@
 public class ClasseCachorro {
     
-    //carcterísticas da classe cachorro
-    public String nome;
-    public String cor;
+    //Características da classe cachorro
+
+    //Encapsulamento Ex - PRIVATE
+    private String nome;
+    private String cor;
+
+    //Ex - PUBLIC
     public int altura;
     public double peso;
     public int tamanhoDoRabo;
+    
     //Característica criada para definir uma ação
     public String estadoDeEspirito;
 
+    //CONSTRUTORES
+    public ClasseCachorro(){}
+    
+    
+    public ClasseCachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo) {
+        
+    }
+
+    //Método get - utilizado para criar uma regra específica para o objeto que desejar
+    //Pode proibir o acesso ou alterar o retorno
+    //Neste exemplo foi alterado o retorno
+    public String getNome(){
+        return "rex";
+    }
+
+    public double getPeso(){
+        return 5.5;
+    }
+    //Set com condicional
+    public String setNome(String nome){
+        if(nome.equals("lili")){
+        }
+        return "Nome Feio";
+    }
+
+    //Método set
+    public void setCor(String cor){
+        this.cor = cor;
+    }
+    
     //Métodos
     //Exemplo 1 - método publico / sem retorno (void) / Ação "comer" / não recebe variável () / não faz nada {}
     public void comer(){}
@@ -38,9 +73,8 @@ public class ClasseCachorro {
         }else{
             this.estadoDeEspirito = "neutro";
         }
-        return estadoDeEspirito;
+            return estadoDeEspirito;
     }
-
 
 
 }

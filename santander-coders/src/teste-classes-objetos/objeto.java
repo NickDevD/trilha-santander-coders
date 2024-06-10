@@ -12,7 +12,11 @@ public class objeto {
         objetoNicholas.idade = 30;
         objetoNicholas.formação = "Engenheiro de Software";
 
-        System.out.println(objetoNicholas);
+        System.out.println("Resultou em " + objetoNicholas.correr());
+
+        System.out.println("Habito " + objetoNicholas.exercitar("caminhar"));
+
+        System.out.println(objetoNicholas.getNome());
     }
 
     

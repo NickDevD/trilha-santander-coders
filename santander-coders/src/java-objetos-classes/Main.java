@@ -5,16 +5,22 @@ public class Main {
         //Referenciando a classe para criar o objeto
         ClasseCachorro cachorro1;
         cachorro1 = new ClasseCachorro();
+        
         //ou ClasseCachorro cachorro1 = new ClasseCachorro();
+        ClasseCachorro cachorro2 = new ClasseCachorro("lili", "marron", 25, 5.5, 5);
+        
 
         //Atribuindo valores as características do objeto
-        cachorro1.nome = "Dog";
-        cachorro1.cor = "Marron";
+        
+        //Utilizando método get e set
+        cachorro1.getNome();
+        cachorro1.setNome("lili");
+        cachorro1.setCor("Marron");
+        
         cachorro1.altura = 25;
         cachorro1.peso = 5.5;
         cachorro1.tamanhoDoRabo = 5;
        
-
         //Métodos do objeto / Ações ou atividades realizadas
         cachorro1.latir();
         cachorro1.comer();
@@ -29,7 +35,11 @@ public class Main {
         System.out.println("O cachorro ficou " + cachorro1.interagir("nada"));
         System.out.println("O cachorro ficou " + cachorro1.interagir("Carinho"));
 
+        //"SysOut" do método set com condicional
+        System.out.println(cachorro1.setNome("lili"));
 
+        System.out.println(cachorro2.getNome());
+        System.out.println(cachorro2.getPeso());
 
         
     }
