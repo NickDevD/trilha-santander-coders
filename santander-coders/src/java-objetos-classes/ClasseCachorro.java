@@ -21,6 +21,7 @@ public class ClasseCachorro {
     public ClasseCachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo) {
         
     }
+    
 
     //Método get - utilizado para criar uma regra específica para o objeto que desejar
     //Pode proibir o acesso ou alterar o retorno

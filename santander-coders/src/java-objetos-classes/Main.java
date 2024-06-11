@@ -3,9 +3,10 @@ public class Main {
     public static void main(String[] classeCachorro) {
 
         //Referenciando a classe para criar o objeto
-        ClasseCachorro cachorro1;
-        cachorro1 = new ClasseCachorro();
+        //ClasseCachorro cachorro1;
+        //cachorro1 = new ClasseCachorro();
         
+        ClasseCachorro cachorro1 = new ClasseCachorro("lili", "marron", 25, 5.5, 5);
         //ou ClasseCachorro cachorro1 = new ClasseCachorro();
         ClasseCachorro cachorro2 = new ClasseCachorro("lili", "marron", 25, 5.5, 5);
         
@@ -41,6 +42,9 @@ public class Main {
         System.out.println(cachorro2.getNome());
         System.out.println(cachorro2.getPeso());
 
+        //Foi criado 2 objeto "cachorro" diferentes
+        System.out.println(cachorro1.peso);
+        System.out.println(cachorro2.toString());
         
     }
 }
