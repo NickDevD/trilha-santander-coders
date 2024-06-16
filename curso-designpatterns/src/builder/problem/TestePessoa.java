@@ -15,5 +15,10 @@ public class TestePessoa {
 
         System.out.println(pessoa);
 
+
+        //Stringbuilder permite imprimir os atributos
+        StringBuilder sb = new StringBuilder().append("Nick ").append("Monteiro");
+        System.out.println(sb);
+
     }
 }
