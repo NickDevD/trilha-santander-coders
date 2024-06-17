@@ -8,8 +8,10 @@ public class Jogo {
     public static void main(String[] args) {
         
         //Objeto criado com a classe PrintStream/Scanner e Random
+        //A classe PrintStream possui o argumento System.out
         PrintStream show = System.out;
         Scanner scan = new Scanner(System.in);
+        //Objeto gerador do número aleatório
         Random gerador = new Random();
         
         int opcao;
@@ -25,6 +27,10 @@ public class Jogo {
         if(opcao == 2){
             show.println("Que pena!Mas tudo bem, fica para a próxima");
 
+        }else if(opcao == 1){
+
+            show.println("Ok! o jogo é assim");
+            show.println();
         }
 
     }
