@@ -26,4 +26,5 @@ public class Animal {
     public String getDono() {return dono;}
 
         public void setDono(String dono) {this.dono = dono;}
+
 }
