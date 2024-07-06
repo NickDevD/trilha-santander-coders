@@ -2,7 +2,8 @@ public class objetoAda {
 
     public static void main(String[] objetoAda) {
         
-        Ada ada1 = new Ada();
+        Ada ada1; 
+        ada1 = new Ada();
 
         ada1.nome = "AdaTech";
         ada1.curso = "Java";
